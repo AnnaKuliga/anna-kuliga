@@ -20,3 +20,13 @@
   --smallFontSize: 0.813rem;
   --smallestFontSize: 0.75rem;
 }
+.App {
+  background-color: var(--paleYellow);
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,10 +1,14 @@
 import "./App.css";
-import Hero from "./components/Hero";
+import Body from "./components/Body/Body";
+import Sidebar from "./components/Side Bar/Sidebar";
 
 function App() {
   return (
     <div className="App">
-      <Hero />
+      <div className="container">
+        <Sidebar />
+        <Body />
+      </div>
     </div>
   );
 }

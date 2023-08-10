@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap");
+
 :root {
   --PrimaryColor: hsl(27, 59%, 35%);
   --HoverColor: #dec483;
@@ -13,20 +15,21 @@
   --blueColor: hsl(198, 77%, 58%);
 
   --main-font: "Playfair Display", serif;
-  --biggestFontSize: 2.5rem;
-  --h1FontSize: 1.5rem;
-  --h2FontSize: 1.25rem;
-  --h3FontSize: 1rem;
-  --normalFontSize: 0.938rem;
-  --smallFontSize: 0.813rem;
-  --smallestFontSize: 0.75rem;
+  --biggestFontSize: 30px;
+  --h1FontSize: 25px;
+  --h2FontSize: 22px;
+  --h3FontSize: 20px;
+  --normalFontSize: 16px;
+  --smallFontSize: 14px;
+  --smallestFontSize: 10px;
 }
-.App {
-  background-color: var(--paleYellow);
-  display: flex;
-  flex-direction: column;
-  gap: 6rem;
-  overflow: hidden;
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: var(--main-font);
+  transition: 0.3s ease;
 }
 ::-webkit-scrollbar {
   display: none;

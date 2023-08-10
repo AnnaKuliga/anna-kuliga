@@ -1,3 +1,5 @@
 .Hero {
   color: var(--textColor);
+  display: flex;
+  justify-content: space-between;
 }

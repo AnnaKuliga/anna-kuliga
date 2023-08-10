@@ -14,10 +14,8 @@ const Sidebar = () => {
   return (
     <div className="sideBar grid">
       <div className="logoDiv flex">
-        <FaReact className="logo-icon" />
-        <h2>
-          Anna Kuliga <br /> <span className="logoName">Web Dev</span> 
-        </h2>
+        <FaReact className="logoIcon" />
+        <h2>Anna Kuliga </h2> <span className="logoName">Web Development</span> 
       </div>
       <div className="menuDiv">
         <ul className="menuLists grid">

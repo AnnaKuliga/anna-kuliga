@@ -43,6 +43,12 @@ li {
 .icon {
   font-size: var(--h2FontSize);
 }
+.logoIcon {
+  font-size: 50px;
+  color: var(--blueColor);
+  padding: 2px;
+  animation: spin 16s infinite linear;
+}
 img {
   width: 100%;
   height: auto;
@@ -54,6 +60,7 @@ img {
 .grid {
   display: grid;
   align-items: center;
+  gap: 18px;
 }
 .btn {
   border: none;
@@ -82,11 +89,20 @@ body {
   border-radius: 15px;
   position: relative;
   width: 95vw;
-  height: auto;
+  height: 40vw;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--bgColor);
   overflow: hidden;
   box-shadow: 2px 2px 4px var(--greyText);
+}
+
+@keyframes spin {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+  to {
+    transform: scale(1) rotate(360deg);
+  }
 }

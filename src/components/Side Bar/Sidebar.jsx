@@ -87,7 +87,7 @@ const Sidebar = () => {
           </a>
           <a
             href="https://www.shecodes.io/graduates/57519-anna-kuliga"
-            title="Anna Kuliga LinkedIn"
+            title="Anna Kuliga SheCodes"
             target="_blank"
             rel="noreferrer"
           >

@@ -86,4 +86,26 @@
       }
     }
   }
+
+  .sideBarCard {
+    .social {
+      align-items: center;
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 5px;
+
+      a {
+        .icon {
+          color: var(--greyText);
+          padding-bottom: 5px;
+
+          &:hover {
+            color: var(--primaryColor);
+            transition: 0.3 ease-in-out;
+            transform: translate(10%);
+          }
+        }
+      }
+    }
+  }
 }

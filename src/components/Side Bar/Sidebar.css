@@ -1,6 +1,6 @@
 :root {
-  --primaryColor: hsl(27, 59%, 35%);
-  --hoverColor: #dec483;
+  --primaryColor: #deff58;
+  --hoverColor: #e0f780;
   --paleColor: hsl(54, 75%, 89%);
   --whiteColor: hsl(0, 0%, 100%);
   --blackColor: hsl(0, 0%, 18%);
@@ -22,7 +22,9 @@
 }
 
 .sideBar {
-  background: var(--whiteColor);
+  background: linear-gradient(rgba(3, 63, 71, 0.6), rgba(3, 63, 71, 0.6)), url(/src/assets/img/side_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 1px 0 4px var(--greyText);
   width: 20%;
   height: 100%;
@@ -35,6 +37,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: var(--blackColor);
 }
 .sideBar .logoDiv h2 {
   font-size: var(--h2FontSize);

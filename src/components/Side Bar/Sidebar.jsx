@@ -24,42 +24,42 @@ const Sidebar = () => {
       <div className="menuDiv">
         <ul className="menuLists grid">
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="/" className="menuLink flex">
               <AiOutlineHome className="icon" />
               <span className="smallText">Home</span>
             </a>
           </li>
 
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="#about" className="menuLink flex">
               <BsPerson className="icon" />
               <span className="smallText">About</span>
             </a>
           </li>
 
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="#skills" className="menuLink flex">
               <HiOutlineLightBulb className="icon" />
               <span className="smallText">Skills</span>
             </a>
           </li>
 
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="#projects" className="menuLink flex">
               <MdWorkOutline className="icon" />
               <span className="smallText">Projects</span>
             </a>
           </li>
 
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="#reviews" className="menuLink flex">
               <AiOutlineStar className="icon" />
               <span className="smallText">Reviews</span>
             </a>
           </li>
 
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="#contact" className="menuLink flex">
               <AiOutlinePhone className="icon" />
               <span className="smallText">Contact</span>
             </a>
@@ -73,6 +73,7 @@ const Sidebar = () => {
             href="https://github.com/AnnaKuliga"
             title="Anna Kuliga GitHub "
             target="_blank"
+            rel="noreferrer"
           >
             <AiOutlineGithub className="icon" />
           </a>
@@ -80,6 +81,7 @@ const Sidebar = () => {
             href="https://www.linkedin.com/in/annakuliga/"
             title="Anna Kuliga LinkedIn"
             target="_blank"
+            rel="noreferrer"
           >
             <BiLogoLinkedin className="icon" />
           </a>
@@ -87,6 +89,7 @@ const Sidebar = () => {
             href="https://www.shecodes.io/graduates/57519-anna-kuliga"
             title="Anna Kuliga LinkedIn"
             target="_blank"
+            rel="noreferrer"
           >
             <IoSchool className="icon" />
           </a>

@@ -92,17 +92,16 @@
       align-items: center;
       display: flex;
       justify-content: space-evenly;
-      margin-bottom: 5px;
+      margin-bottom: 15px;
 
       a {
         .icon {
           color: var(--greyText);
-          padding-bottom: 5px;
 
           &:hover {
             color: var(--primaryColor);
             transition: 0.3 ease-in-out;
-            transform: translate(10%);
+            transform: translate(20%);
           }
         }
       }

@@ -80,14 +80,13 @@
   align-items: center;
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .sideBar .sideBarCard .social a .icon {
   color: var(--greyText);
-  padding-bottom: 5px;
 }
 .sideBar .sideBarCard .social a .icon:hover {
   color: var(--primaryColor);
   transition: 0.3 ease-in-out;
-  transform: translate(10%);
+  transform: translate(20%);
 }/*# sourceMappingURL=Sidebar.css.map */

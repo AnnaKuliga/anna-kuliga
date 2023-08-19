@@ -32,10 +32,32 @@
 }
 .hero .left .hero-text {
   margin-left: 40px;
+  margin-top: 100px;
+}
+.hero .left .hero-text .intro {
+  letter-spacing: 8px;
+  font-size: var(--h3FontSize);
+}
+.hero .left .hero-text h1 {
+  font-size: 50px;
+}
+.hero .left .hero-text p {
+  font-size: var(--h2FontSize);
 }
 .hero .left .hero-text .text-brand {
   color: var(--primaryColor);
   letter-spacing: 1px;
+}
+.hero .left .hero-text .contact {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.hero .left .hero-text .contact .tel {
+  max-width: 260px;
+  font-size: var(--h3FontSize);
+  letter-spacing: 4px;
 }
 .hero .right {
   flex-basis: 30%;

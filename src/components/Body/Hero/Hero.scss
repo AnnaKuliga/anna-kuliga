@@ -29,11 +29,38 @@
   .left {
     padding: 10px;
     flex-basis: 70%;
+
     .hero-text {
       margin-left: 40px;
+      margin-top: 100px;
+
+      .intro {
+        letter-spacing: 8px;
+        font-size: var(--h3FontSize);
+      }
+      h1 {
+        font-size: 50px;
+      }
+      p {
+        font-size: var(--h2FontSize);
+      }
+
       .text-brand {
         color: var(--primaryColor);
         letter-spacing: 1px;
+      }
+
+      .contact {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .tel {
+          max-width: 260px;
+          font-size: var(--h3FontSize);
+          letter-spacing: 4px;
+        }
       }
     }
   }

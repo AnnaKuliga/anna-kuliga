@@ -1,12 +1,12 @@
 import "./App.css";
-import Body from "./components/Body/Body";
-import Top from "./components/Body/Top/Top";
+
+import Hero from "./components/Body/Hero/Hero";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <Top />
+        <Hero />
         {/*<Body />*/}
         {/*<Footer/>*/}
       </div>

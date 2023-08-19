@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
 :root {
   --primaryColor: #deff58;
   --hoverColor: #e0f780;
@@ -6,7 +9,7 @@
   --whiteColor: hsl(0, 0%, 100%);
   --blackColor: hsl(0, 0%, 18%);
   --textColor: hsl(240, 1%, 48%);
-  --bgColor: hsla(220, 10%, 94%, 0.767);
+  --bgColor: #033f47;
   --greyText: rgb(190, 190, 190);
   --inputColor: hsl(330, 12%, 97%);
   --itemCardColor: hsl(120, 5%, 88%);
@@ -14,6 +17,7 @@
   --blueColor: hsl(198, 77%, 58%);
 
   --main-font: "Playfair Display", serif;
+  --logo-font: "Neucha", cursive;
   --biggestFontSize: 30px;
   --h1FontSize: 25px;
   --h2FontSize: 22px;
@@ -22,19 +26,18 @@
   --smallFontSize: 14px;
   --smallestFontSize: 10px;
 }
-
-* {
-  padding: 0;
-  box-sizing: border-box;
-  margin: 0;
-  font-family: var(--main-font);
-  transition: 0.3s ease;
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  overflow: hidden;
 }
 ::-webkit-scrollbar {
   display: none;
 }
 a {
   text-decoration: none;
+  color: var(--blackColor);
 }
 li {
   list-style: none;
@@ -43,7 +46,7 @@ li {
   font-size: var(--h2FontSize);
 }
 .logoIcon {
-  font-size: 50px;
+  font-size: 40px;
   color: var(--blueColor);
   padding: 2px;
   animation: spin 16s infinite linear;
@@ -77,18 +80,13 @@ img {
   background: var(--paleColor);
   color: var(--primaryColor);
 }
-body {
+.container {
+  background: var(--bgColor);
+}
+footer {
   background-image: url(/src/assets/img/side_img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-.container {
-  border-radius: 15px;
-  width: 1200px;
-  display: flex;
-  background-color: var(--bgColor);
-  box-shadow: 2px 2px 4px var(--greyText);
-  margin: 0 auto;
 }
 
 @keyframes spin {

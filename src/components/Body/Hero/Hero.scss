@@ -2,7 +2,7 @@
   --primaryColor: #deff58;
   --hoverColor: #e0f780;
   --paleColor: hsl(54, 75%, 89%);
-  --whiteColor: hsl(0, 0%, 100%);
+  --whiteColor: #eef3db;
   --blackColor: hsl(0, 0%, 18%);
   --textColor: hsl(240, 1%, 48%);
   --bgColor: #033f47;
@@ -29,6 +29,13 @@
   .left {
     padding: 10px;
     flex-basis: 70%;
+    .hero-text {
+      margin-left: 40px;
+      .text-brand {
+        color: var(--primaryColor);
+        letter-spacing: 1px;
+      }
+    }
   }
   .right {
     flex-basis: 30%;

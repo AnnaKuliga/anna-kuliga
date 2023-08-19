@@ -12,11 +12,7 @@ const Body = () => {
     <div className="mainContent">
       <Hero />
       <div className="bottom flex">
-        <About />
-        <Skills />
-        <Projects />
-        <Reviews />
-        <Contact />
+        {/*About Skills Projects Reviews Contact*/}
       </div>
     </div>
   );

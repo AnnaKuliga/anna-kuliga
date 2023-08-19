@@ -1,13 +1,14 @@
 import "./App.css";
 import Body from "./components/Body/Body";
-import Sidebar from "./components/Side Bar/Sidebar";
+import Top from "./components/Body/Top/Top";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <Sidebar />
-        <Body />
+        <Top />
+        {/*<Body />*/}
+        {/*<Footer/>*/}
       </div>
     </div>
   );

@@ -37,6 +37,7 @@
       .intro {
         letter-spacing: 8px;
         font-size: var(--h3FontSize);
+        color: var(--hoverColor);
       }
       h1 {
         font-size: 50px;
@@ -97,6 +98,15 @@
           color: var(--greyText);
         }
       }
+    }
+
+    .hero-icon {
+      font-size: 350px;
+      color: var(--blueColor);
+      position: absolute;
+      top: 130px;
+      right: 100px;
+      animation: spin 16s infinite linear;
     }
   }
 }

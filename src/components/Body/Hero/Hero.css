@@ -37,6 +37,7 @@
 .hero .left .hero-text .intro {
   letter-spacing: 8px;
   font-size: var(--h3FontSize);
+  color: var(--hoverColor);
 }
 .hero .left .hero-text h1 {
   font-size: 50px;
@@ -87,4 +88,12 @@
 }
 .hero .right .social a .icon {
   color: var(--greyText);
+}
+.hero .right .hero-icon {
+  font-size: 350px;
+  color: var(--blueColor);
+  position: absolute;
+  top: 130px;
+  right: 100px;
+  animation: spin 16s infinite linear;
 }/*# sourceMappingURL=Hero.css.map */

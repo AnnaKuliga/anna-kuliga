@@ -13,9 +13,11 @@ const Header = () => {
   return (
     <div className="Header">
       <div className="logoDiv flex">
-        <FaReact className="logoIcon" />
         <div className="name">
-          <h2>Anna Kuliga</h2>
+          <h2>
+            Anna Kuliga
+            <p className="logo-text">Web Development</p>
+          </h2>
         </div>
         <div className="menu">
           <ul className="header-menu">

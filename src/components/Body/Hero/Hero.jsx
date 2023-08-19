@@ -6,6 +6,7 @@ import Header from "../Header/Header";
 import { AiOutlineGithub } from "react-icons/ai";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { IoSchool } from "react-icons/io5";
+import { FaReact } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -58,6 +59,8 @@ const Hero = () => {
             <IoSchool className="icon" />
           </a>
         </div>
+
+        <FaReact className="hero-icon" />
       </div>
     </div>
   );

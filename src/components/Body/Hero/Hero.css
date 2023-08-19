@@ -60,5 +60,31 @@
   letter-spacing: 4px;
 }
 .hero .right {
+  position: absolute;
+  right: 0;
+  padding: 10px;
   flex-basis: 30%;
+}
+.hero .right .social {
+  margin-top: 10px;
+}
+.hero .right .social .social-link {
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--itemCardColor);
+  border-radius: 100%;
+  font-size: 24px;
+}
+.hero .right .social .social-link .icon {
+  color: var(--blackColor);
+}
+.hero .right .social .social-link:hover {
+  background-color: var(--primaryColor);
+}
+.hero .right .social a .icon {
+  color: var(--greyText);
 }/*# sourceMappingURL=Hero.css.map */

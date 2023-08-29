@@ -5,12 +5,13 @@
   --whiteColor: #eef3db;
   --blackColor: hsl(0, 0%, 18%);
   --textColor: hsl(240, 1%, 48%);
-  --bgColor: #033f47;
+  --bgColor: #022a30;
   --greyText: rgb(190, 190, 190);
   --inputColor: hsl(330, 12%, 97%);
   --itemCardColor: hsl(120, 5%, 88%);
   --itemCardHover: hsl(120, 27%, 87%);
   --blueColor: hsl(198, 77%, 58%);
+  --color-base: #033f47;
   --main-font: "Playfair Display", serif;
   --logo-font: "Neucha", cursive;
   --biggestFontSize: 30px;
@@ -32,18 +33,25 @@
   display: flex;
   gap: 20px;
   padding-top: 20px;
+  margin: 20px 0;
 }
 .About .personal .p-left {
   display: flex;
   flex-direction: column;
   flex-basis: 70%;
+  gap: 20px;
 }
-.About .personal .p-left h3 {
+.About .personal .p-left .bg-base {
+  background-color: var(--color-base);
+  border-radius: 8px;
+  padding: 30px;
+}
+.About .personal .p-left .bg-base h3 {
   font-size: var(--h2FontSize);
   color: var(--primaryColor);
   text-transform: uppercase;
 }
-.About .personal .p-left p {
+.About .personal .p-left .bg-base p {
   text-align: justify;
 }
 .About .personal .p-right {
@@ -53,5 +61,5 @@
 .About .personal .p-right .rounded-circle {
   width: 100%;
   border-radius: 50%;
-  border: 8px solid var(--whiteColor);
+  border: 8px solid var(--paleColor);
 }/*# sourceMappingURL=About.css.map */

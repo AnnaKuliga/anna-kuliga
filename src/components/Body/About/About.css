@@ -28,12 +28,30 @@
   flex-direction: column;
   margin: 0 40px;
 }
-.About .p-left {
+.About .personal {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+.About .personal .p-left {
+  display: flex;
+  flex-direction: column;
   flex-basis: 70%;
 }
-.About .p-right {
-  flex-basis: 30%;
+.About .personal .p-left h3 {
+  font-size: var(--h2FontSize);
+  color: var(--primaryColor);
+  text-transform: uppercase;
 }
-.About p {
+.About .personal .p-left p {
   text-align: justify;
+}
+.About .personal .p-right {
+  flex-basis: 30%;
+  padding: 20px;
+}
+.About .personal .p-right .rounded-circle {
+  width: 100%;
+  border-radius: 50%;
+  border: 8px solid var(--whiteColor);
 }/*# sourceMappingURL=About.css.map */

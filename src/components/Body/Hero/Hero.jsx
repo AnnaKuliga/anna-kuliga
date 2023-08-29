@@ -21,7 +21,9 @@ const Hero = () => {
           <h1>
             I am <span class="text-brand">Frontend Developer</span>
           </h1>
-          <p>My name is Anna and I am a React Developer, based in Europe.</p>
+          <p>
+            My name is Anna Kuliga and I am a React Developer, based in Europe.
+          </p>
           <div className="contact">
             <a href="tel:+47 925 35 197" className="tel custom-link">
               Call +47 925 35 197

@@ -25,8 +25,8 @@ const Hero = () => {
             My name is Anna Kuliga and I am a React Developer, based in Europe.
           </p>
           <div className="contact">
-            <a href="tel:+47 925 35 197" className="tel custom-link">
-              Call +47 925 35 197
+            <a href="tel:+48 785 036 017" className="tel custom-link">
+              Call +48 785 036 017
             </a>
           </div>
         </div>

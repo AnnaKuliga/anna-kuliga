@@ -5,7 +5,8 @@
   --whiteColor: #eef3db;
   --blackColor: hsl(0, 0%, 18%);
   --textColor: hsl(240, 1%, 48%);
-  --bgColor: #033f47;
+  --bgColor: #022a30;
+  --cardColor: #033f47;
   --greyText: rgb(190, 190, 190);
   --inputColor: hsl(330, 12%, 97%);
   --itemCardColor: hsl(120, 5%, 88%);
@@ -27,4 +28,38 @@
   justify-content: space-between;
   flex-direction: column;
   margin: 0 40px;
+
+  .skills-categories {
+    display: flex;
+    gap: 1rem;
+
+    .skills-card {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--cardColor);
+      padding: 25px;
+      color: white;
+      justify-content: space-between;
+      text-align: justify;
+      margin-top: 40px;
+
+      .skill-icon {
+        width: 35px;
+        height: 35px;
+      }
+      .skill-title {
+        font: bold;
+        font-size: var(--h2FontSize);
+      }
+      .skill-description {
+        font-size: 15px;
+        line-height: 1.5;
+      }
+    }
+    .skills-card:hover {
+      background-color: var(--itemCardHover);
+      cursor: pointer;
+      color: var(--bgColor);
+    }
+  }
 }

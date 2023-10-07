@@ -74,5 +74,5 @@
 .Skills .icons .icon:hover {
   color: var(--hoverColor);
   cursor: pointer;
-  transform: scale(1.5);
+  transform: scasle(1.5);
 }/*# sourceMappingURL=Skills.css.map */

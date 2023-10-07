@@ -28,6 +28,7 @@
   justify-content: space-between;
   flex-direction: column;
   margin: 0 40px;
+  color: white;
 }
 .About .personal {
   display: flex;

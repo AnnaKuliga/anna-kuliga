@@ -19,6 +19,7 @@ import { TbApi } from "react-icons/tb";
 import { BsBootstrapFill } from "react-icons/bs";
 import { DiResponsive } from "react-icons/di";
 import { TbSeo } from "react-icons/tb";
+import { MdOutlineWeb } from "react-icons/md";
 
 const Skills = () => {
   return (
@@ -76,19 +77,20 @@ const Skills = () => {
       </div>
 
       <div className="icons">
-        <SiAdobelightroom className="icon" />
-        <SiAdobephotoshop className="icon" />
-        <TbBrandVscode className="icon" />
-        <LiaFigma className="icon" />
-        <AiFillHtml5 className="icon" />
-        <BiLogoCss3 className="icon" />
-        <BsFiletypeScss className="icon" />
-        <BiLogoJavascript className="icon" />
-        <FaReact className="icon" />
-        <TbApi className="icon" />
-        <BsBootstrapFill className="icon" />
-        <DiResponsive className="icon" />
-        <TbSeo className="icon" />
+        <SiAdobelightroom className="icon" title="Adobe Lightroom" />
+        <SiAdobephotoshop className="icon" title="Adobe Photoshop" />
+        <TbBrandVscode className="icon" title="VS Code" />
+        <LiaFigma className="icon" title="Figma" />
+        <AiFillHtml5 className="icon" title="HTML 5" />
+        <BiLogoCss3 className="icon" title="CSS" />
+        <BsFiletypeScss className="icon" title="SCSS" />
+        <BiLogoJavascript className="icon" title="JavaScript" />
+        <FaReact className="icon" title="React.js" />
+        <TbApi className="icon" title="APIs" />
+        <BsBootstrapFill className="icon" title="Bootstrap" />
+        <DiResponsive className="icon" title="Responsive" />
+        <TbSeo className="icon" title="SEO" />
+        <MdOutlineWeb className="icon" title="Hosting" />
       </div>
     </div>
   );

@@ -3,12 +3,22 @@ import "./Skills.css";
 
 //imported icons ------->
 import { VscDeviceCamera } from "react-icons/vsc";
-import { SiAdobelightroom } from "react-icons/si";
-import { SiAdobephotoshop } from "react-icons/si";
-import { GrInstagram } from "react-icons/gr";
-
 import { BsCodeSquare } from "react-icons/bs";
 import { FiEdit } from "react-icons/fi";
+
+import { SiAdobelightroom } from "react-icons/si";
+import { SiAdobephotoshop } from "react-icons/si";
+import { TbBrandVscode } from "react-icons/tb";
+import { LiaFigma } from "react-icons/lia";
+import { AiFillHtml5 } from "react-icons/ai";
+import { BiLogoCss3 } from "react-icons/bi";
+import { BsFiletypeScss } from "react-icons/bs";
+import { BiLogoJavascript } from "react-icons/bi";
+import { FaReact } from "react-icons/fa";
+import { TbApi } from "react-icons/tb";
+import { BsBootstrapFill } from "react-icons/bs";
+import { DiResponsive } from "react-icons/di";
+import { TbSeo } from "react-icons/tb";
 
 const Skills = () => {
   return (
@@ -63,6 +73,22 @@ const Skills = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      <div className="icons">
+        <SiAdobelightroom className="icon" />
+        <SiAdobephotoshop className="icon" />
+        <TbBrandVscode className="icon" />
+        <LiaFigma className="icon" />
+        <AiFillHtml5 className="icon" />
+        <BiLogoCss3 className="icon" />
+        <BsFiletypeScss className="icon" />
+        <BiLogoJavascript className="icon" />
+        <FaReact className="icon" />
+        <TbApi className="icon" />
+        <BsBootstrapFill className="icon" />
+        <DiResponsive className="icon" />
+        <TbSeo className="icon" />
       </div>
     </div>
   );

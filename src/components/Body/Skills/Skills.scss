@@ -64,4 +64,19 @@
       color: var(--bgColor);
     }
   }
+
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 15px;
+
+    .icon {
+      font-size: 45px;
+    }
+    .icon:hover {
+      color: var(--hoverColor);
+      cursor: pointer;
+    }
+  }
 }

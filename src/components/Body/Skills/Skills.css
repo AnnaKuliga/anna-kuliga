@@ -61,4 +61,17 @@
   background-color: var(--itemCardHover);
   cursor: pointer;
   color: var(--bgColor);
+}
+.Skills .icons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.Skills .icons .icon {
+  font-size: 45px;
+}
+.Skills .icons .icon:hover {
+  color: var(--hoverColor);
+  cursor: pointer;
 }/*# sourceMappingURL=Skills.css.map */

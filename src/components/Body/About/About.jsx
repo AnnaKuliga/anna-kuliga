@@ -9,7 +9,7 @@ const About = () => {
       <div className="personal">
         <div className="p-left">
           <span className="bg-base">
-            <h3>About Anna</h3>
+            <h3>About me</h3>
             <p className="text">
               My name is Anna. I come from a small village in the south-east of
               Poland. Currently, I live in Oslo, Norway. In 2020, I graduated
@@ -37,7 +37,7 @@ const About = () => {
           </span>
         </div>
         <div className="p-right">
-          <img src={anna} alt="Anna Kuliga image" className="rounded-circle" />
+          <img src={anna} alt="Anna Kuliga" className="rounded-circle" />
         </div>
       </div>
     </div>

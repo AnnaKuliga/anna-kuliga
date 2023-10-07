@@ -31,7 +31,9 @@
 }
 .Skills .skills-categories {
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
 .Skills .skills-categories .skills-card {
   display: flex;

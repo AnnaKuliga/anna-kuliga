@@ -51,7 +51,7 @@ const Skills = () => {
             <FiEdit className="skill-icon" />
           </div>
           <div className="skill-title">
-            <h3>Editing & Tech writing</h3>
+            <h3>Editing & Tech Writing</h3>
           </div>
           <div className="skill-description">
             <p>

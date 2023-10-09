@@ -3,7 +3,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div className="projects" id="projects">
+    <div className="Projects full-height" id="projects">
       Projects
     </div>
   );

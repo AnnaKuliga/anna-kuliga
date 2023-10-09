@@ -82,7 +82,7 @@
   font-size: 24px;
 }
 .hero .right .social .social-link .icon {
-  color: white;
+  color: var(--greyText);
 }
 .hero .right .social .social-link .icon:hover {
   color: var(--blueColor);

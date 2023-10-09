@@ -11,14 +11,24 @@ const Projects = () => {
     <div className="Projects full-height" id="projects">
       <div className="project-card">
         {projectsData.map((project, i) => (
-          <div className="project-name" key={i}>
+          <div className="category" key={i}>
             <div className="name">{project.name}</div>
             <div className="description">{project.description}</div>
             <div className="project-link">
-              <a href={project.git}>
+              <a
+                href={project.git}
+                title={project.name}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <BsGithub />
               </a>
-              <a href={project.hosting}>
+              <a
+                href={project.hosting}
+                title={project.name}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <CgWebsite />
               </a>
             </div>

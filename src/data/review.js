@@ -1,11 +1,11 @@
-export const reviewsData = [
+export const reviewData = [
   {
     text: "It's a great dictionary app! Great choice on the layout, makes it look good! You have a well-structured, clean code that works without any issues. Overall, it's an excellent project, nice job!",
     name: "Paul G.",
     subname: "SheCodes",
   },
   {
-    text: "I am pleased to see that the overall design of this project is strong and visually appealing. The use of grid design is particularly noteworthy, as it adds a level of organization and structure to the layout. It is clear that the developer has a solid understanding of how to effectively utilize grid design to create a cohesive and visually appealing interface. In addition, the responsive design techniques used in this project are top-notch. The layout adjusts seamlessly on different devices and the user experience remains consistent across all screen sizes. It is evident that the developer has a strong understanding of responsive design and how to apply it effectively in their work. Read less",
+    text: "I am pleased to see that the overall design of this project is strong and visually appealing. The use of grid design is particularly noteworthy, as it adds a level of organization and structure to the layout. It is clear that the developer has a solid understanding of how to effectively utilize grid design to create a cohesive and visually appealing interface. In addition, the responsive design techniques used in this project are top-notch. The layout adjusts seamlessly on different devices and the user experience remains consistent across all screen sizes. It is evident that the developer has a strong understanding of responsive design and how to apply it effectively in their work.",
     name: "Bruno T.",
     subname: "SheCodes",
   },

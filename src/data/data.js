@@ -8,7 +8,7 @@ export const plansData = [
   {
     name: "Fildex landing page",
     description:
-      " The website was created as a part of a project 'Help local companies shine'. The project focuses on local businesses which lack websites. Fildex landing page was built with React.js, HTML, CSS and JavaScript.",
+      " The website was created as a part of a project 'Help local companies shine'. Fildex landing page was built with React.js, HTML, CSS and JavaScript.",
     git: "https://github.com/AnnaKuliga/filip-fildex",
     hosting: "https://fsfildex.com",
   },

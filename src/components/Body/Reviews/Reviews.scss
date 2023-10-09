@@ -36,5 +36,42 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
+
+    .review-body {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--cardColor);
+      padding: 20px;
+      color: white;
+      text-align: justify;
+      border-radius: 5px;
+
+      .stars {
+        display: flex;
+        flex-direction: row;
+        color: goldenrod;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .review-description {
+        font-size: 12px;
+        padding-bottom: 10px;
+      }
+      .review-person {
+        font-size: 13px;
+        font: bold;
+      }
+      .review-company {
+        font-size: 11px;
+        font-style: italic;
+      }
+    }
+
+    .review-body:hover {
+      background-color: var(--itemCardHover);
+      cursor: pointer;
+      color: var(--bgColor);
+      transform: scale(1.1);
+    }
   }
 }

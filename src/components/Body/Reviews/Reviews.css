@@ -36,4 +36,38 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
+}
+.Reviews .review-card .review-body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cardColor);
+  padding: 20px;
+  color: white;
+  text-align: justify;
+  border-radius: 5px;
+}
+.Reviews .review-card .review-body .stars {
+  display: flex;
+  flex-direction: row;
+  color: goldenrod;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Reviews .review-card .review-body .review-description {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+.Reviews .review-card .review-body .review-person {
+  font-size: 13px;
+  font: bold;
+}
+.Reviews .review-card .review-body .review-company {
+  font-size: 11px;
+  font-style: italic;
+}
+.Reviews .review-card .review-body:hover {
+  background-color: var(--itemCardHover);
+  cursor: pointer;
+  color: var(--bgColor);
+  transform: scale(1.1);
 }/*# sourceMappingURL=Reviews.css.map */

@@ -1,6 +1,6 @@
 export const reviewData = [
   {
-    text: "It's a great dictionary app! Great choice on the layout, makes it look good! You have a well-structured, clean code that works without any issues. Overall, it's an excellent project, nice job!",
+    text: "It's a great dictionary app! Great choice on the layout, makes it look good! That's top-notch quality code! Everything was done correctly and how it should be done if you're a professional developer. Congratulations, I'm so proud of you, I can't even find the words!",
     name: "Paul G.",
     subname: "SheCodes",
   },

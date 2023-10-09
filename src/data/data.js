@@ -1,4 +1,4 @@
-export const plansData = [
+export const projectsData = [
   {
     name: "Admin dashboard : coffee shop",
     description:

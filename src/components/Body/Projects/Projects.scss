@@ -59,11 +59,12 @@
         a {
           padding: 10px;
           color: var(--bgColor);
-          font-size: 20px;
+          font-size: 21px;
         }
         a:hover {
           cursor: pointer;
           color: var(--blueColor);
+          transform: scale(1.2);
         }
       }
     }

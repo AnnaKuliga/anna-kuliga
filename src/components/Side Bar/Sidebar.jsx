@@ -66,35 +66,6 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-
-      <div className="sideBarCard">
-        <div className="social">
-          <a
-            href="https://github.com/AnnaKuliga"
-            title="Anna Kuliga GitHub "
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiOutlineGithub className="icon" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/annakuliga/"
-            title="Anna Kuliga LinkedIn"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BiLogoLinkedin className="icon" />
-          </a>
-          <a
-            href="https://www.shecodes.io/graduates/57519-anna-kuliga"
-            title="Anna Kuliga SheCodes"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <IoSchool className="icon" />
-          </a>
-        </div>
-      </div>
     </div>
   );
 };

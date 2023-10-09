@@ -76,18 +76,4 @@
 .sideBar .menuDiv .menuLists .listItem:hover::before {
   height: 100%;
   transition: all 0.3s ease;
-}
-.sideBar .sideBarCard .social {
-  align-items: center;
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 15px;
-}
-.sideBar .sideBarCard .social a .icon {
-  color: var(--greyText);
-}
-.sideBar .sideBarCard .social a .icon:hover {
-  color: var(--primaryColor);
-  transition: 0.3 ease-in-out;
-  transform: translate(20%);
 }/*# sourceMappingURL=Sidebar.css.map */

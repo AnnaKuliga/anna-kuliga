@@ -77,15 +77,19 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--itemCardColor);
+  background-color: var(--cardColor);
   border-radius: 100%;
   font-size: 24px;
 }
 .hero .right .social .social-link .icon {
-  color: var(--blackColor);
+  color: white;
+}
+.hero .right .social .social-link .icon:hover {
+  color: var(--blueColor);
 }
 .hero .right .social .social-link:hover {
-  background-color: var(--primaryColor);
+  background-color: var(--itemCardHover);
+  transform: scale(1.1);
 }
 .hero .right .social a .icon {
   color: var(--greyText);

@@ -87,25 +87,4 @@
       }
     }
   }
-
-  .sideBarCard {
-    .social {
-      align-items: center;
-      display: flex;
-      justify-content: space-evenly;
-      margin-bottom: 15px;
-
-      a {
-        .icon {
-          color: var(--greyText);
-
-          &:hover {
-            color: var(--primaryColor);
-            transition: 0.3 ease-in-out;
-            transform: translate(20%);
-          }
-        }
-      }
-    }
-  }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Reviews.css";
 import { reviewData } from "../../../data/review";
-
+//imported icons--->
 import { AiFillStar } from "react-icons/ai";
 
 const Reviews = () => {

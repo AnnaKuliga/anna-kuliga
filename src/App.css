@@ -82,7 +82,12 @@ img {
   align-items: center;
   gap: 18px;
 }
-
+.stroke-text {
+  color: transparent;
+  font-size: 40px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
 .container {
   background: var(--bgColor);
   color: var(--whiteColor);

@@ -4,7 +4,7 @@ import About from "./components/Body/About/About";
 import Skills from "./components/Body/Skills/Skills";
 import Projects from "./components/Body/Projects/Projects";
 import Reviews from "./components/Body/Reviews/Reviews";
-import Websites from "./components/Body/Websites/Websites";
+import Contact from "./components/Body/Contact/Contact";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Skills />
         <Projects />
         <Reviews />
-        <Websites />
+        <Contact />
         {/*<Footer/>*/}
       </div>
     </div>

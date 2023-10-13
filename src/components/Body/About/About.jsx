@@ -12,10 +12,13 @@ const About = () => {
             <h3>About me</h3>
             <p className="text">
               My name is Anna. I come from a small village in the south-east of
-              Poland. Currently, I live in Oslo, Norway. In 2020, I graduated
+              Poland. Currently, I live in Lublin, Poland. In 2020, I graduated
               from Maria Curie- Skłodowska University in Lublin. I have BA and
               MA in Applied Linguistics. I speak English fluently and also
               French. My true passion is photography and learning new languages.
+              Due to my travelling passion, I have lived in the USA for some
+              time and in Norway. It helped me mastering my languages skills and
+              develop my photography passion.
             </p>
           </span>
           <span className="bg-base">

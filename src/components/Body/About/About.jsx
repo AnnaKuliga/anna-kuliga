@@ -29,9 +29,9 @@ const About = () => {
               podkarpackie region. Recently, I have found myself really into
               coding. I have been successfully graduating SheCodes online
               workshops. In my professional life I follow perfection. I always
-              do my best in everything. I am not afraid of challenges. I am a
-              fast learner and personally, I believe that time management skills
-              are essential while pursuing my professional dreams and goals. I
+              do my best in everything. I am not afraid to be challenged. I am a
+              fast learner and personally, I believe that the time management
+              skill is essential while pursuing professional dreams and goals. I
               value and respect the work and experience of other people. That is
               why team work is important in my life. It does not only give me an
               opportunity to work with experienced people, but also I can share

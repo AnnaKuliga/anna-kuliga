@@ -4,6 +4,7 @@ import "./Contact.css";
 //imported icons ---->
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
+//imported imgs --->
 
 const Contact = () => {
   return (

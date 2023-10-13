@@ -43,6 +43,7 @@ const About = () => {
               href="https://drive.google.com/file/d/1mM4k5zwrdfLL47mAfeMdfKxU9GbItFzv/view?usp=sharing"
               target="_blank"
               title="Download CV"
+              rel="noreferrer"
             >
               <button class="btn btn-brand">CV</button>
             </a>
@@ -50,6 +51,7 @@ const About = () => {
               href="https://drive.google.com/file/d/10Cib-sEHm52YkQfAKseAvw9kE3tlI99s/view"
               target="_blank"
               title="Download diplomas"
+              rel="noreferrer"
             >
               <button class="btn btn-brand">Diplomas</button>
             </a>

@@ -58,6 +58,13 @@
           text-align: justify;
         }
       }
+
+      .resume {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 15px;
+        gap: 15px;
+      }
     }
 
     .p-right {

@@ -55,6 +55,12 @@
 .About .personal .p-left .bg-base p {
   text-align: justify;
 }
+.About .personal .p-left .resume {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  gap: 15px;
+}
 .About .personal .p-right {
   flex-basis: 30%;
   padding: 20px;
